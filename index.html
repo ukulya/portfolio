@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="flex-between-center">
+            <a class="" href="/">
+                <img src="img/logo_unvisited.svg" alt="logo" class="img-unvisited">
+                <img src="img/logo_hover.svg" alt="logo" class="img-hover">
+            </a>
+            <div class="visible-sm">
+                <a href="/" class="px-10 active">en</a>/
+                <a href="/" class="pl-10 pr-25">ru</a>
+                <a class="toggle-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <ul class="">
+                <li><a href="#skills" class="px-15">Skills</a></li>
+                <li><a href="#portfolio" class="px-15">Portfolio</a></li>
+                <li><a href="#video" class="px-15">Video</a></li>
+                <li><a href="#price" class="px-15">Price</a></li>
+                <li><a href="#contacts" class="px-15">Contacts</a></li>
+                <li class="ml-5 hidden-sm"><a href="/" class="px-10 active">en</a>/<a href="/" class="pl-10 pr-0">ru</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-img">
+                <img src="img/bg.jpg" alt="hero" class="img-center hidden-sm">
+                <img src="img/bg-mob.jpg" alt="hero" class="visible-sm">
+            </div>
+            <div class="container">
+                <div class="w-470">
+                    <h1>Alexa Rise</h1>
+                    <p>Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+                    <button class="btn-gold">Hire me</button>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h2 class="h2"><span>Skills</span></h2>
+                <div class="row text-center">
+                    <div class="col-lg-3">
+                        <img src="img/camera.svg" alt="camera">
+                        <h4>Digital photography</h4>
+                        <p>High-quality photos in the studio and on the nature</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="img/video.svg" alt="video">
+                        <h4>Video shooting</h4>
+                        <p>Capture your moments so that they always stay with you</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="img/image.svg" alt="image">
+                        <h4>Retouch</h4>
+                        <p>I strive to make photography surpass reality</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="img/mic.svg" alt="mic">
+                        <h4>Audio</h4>
+                        <p>Professional sounds recording for video, advertising, portfolio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="h2"><span>Portfolio</span></h2>
+                <ul class="justify-center nav-tab">
+                    <li><button data-id="tab1" class="tab-button btn-gold-outline">Winter</button></li>
+                    <li><button data-id="tab2" class="tab-button btn-gold-outline">Spring</button></li>
+                    <li><button data-id="tab3" class="tab-button btn-gold-outline">Summer</button></li>
+                    <li><button data-id="tab4" class="tab-button btn-gold-outline active">Autumn</button></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" id="tab1">
+                        <div class="row">
+                        <div class="col-lg-4">
+                            <img src="assets/winter/1.jpg" alt="img1">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/winter/2.jpg" alt="img2">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/winter/3.jpg" alt="img3">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/winter/4.jpg" alt="img4">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/winter/5.jpg" alt="img5">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/winter/6.jpg" alt="img6">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <div class="row">
+                        <div class="col-lg-4">
+                            <img src="assets/spring/1.jpg" alt="img1">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/spring/2.jpg" alt="img2">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/spring/3.jpg" alt="img3">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/spring/4.jpg" alt="img4">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/spring/5.jpg" alt="img5">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/spring/6.jpg" alt="img6">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab3">
+                        <div class="row">
+                        <div class="col-lg-4">
+                            <img src="assets/summer/1.jpg" alt="img1">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/summer/2.jpg" alt="img2">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/summer/3.jpg" alt="img3">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/summer/4.jpg" alt="img4">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/summer/5.jpg" alt="img5">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/summer/6.jpg" alt="img6">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="tab4">
+                        <div class="row">
+                        <div class="col-lg-4">
+                            <img src="assets/autumn/1.jpg" alt="img1">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/autumn/2.jpg" alt="img2">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/autumn/3.jpg" alt="img3">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/autumn/4.jpg" alt="img4">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/autumn/5.jpg" alt="img5">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/autumn/6.jpg" alt="img6">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video">
+            <div class="container">
+                <h2 class="h2"><span>Video</span></h2>
+                <div class="p-relative">
+                    <img src="img/video.jpg" alt="video" class="img-center hidden-sm">
+                    <img src="img/video-mob.jpg" alt="video" class="visible-sm">
+                    <button class="play-btn">
+                    <img src="img/play_unvisited.svg" alt="video" class="img-unvisited">
+                    <img src="img/play_hover.svg" alt="video" class="img-hover">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="price">
+            <div class="container">
+                <h2 class="h2"><span>Price</span></h2>
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <h3>Standart</h3>
+                            <h5>500 $</h5>
+                            <ul>
+                                <li>One location</li>
+                                <li>120 photos in color</li>
+                                <li>12 photos in retouch</li>
+                                <li>Readiness 2-3 weeks</li>
+                                <li>Make up, visage</li>
+                            </ul>
+                            <button class="btn-gold">Order shooting</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                        <h3>Premium</h3>
+                        <h5>700 $</h5>
+                        <ul>
+                            <li>One or two locations</li>
+                            <li>200 photos in color</li>
+                            <li>20 photos in retouch</li>
+                            <li>Readiness 1-2 weeks</li>
+                            <li>Make up, visage</li>
+                        </ul>
+                        <button class="btn-gold">Order shooting</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                        <h3>Gold</h3>
+                        <h5>1000 $</h5>
+                        <ul>
+                            <li>Tree locations or more</li>
+                            <li>300 photos in color</li>
+                            <li>50 photos in retouch</li>
+                            <li>Readiness 1 weeks</li>
+                            <li>Make up, visage, hairstyle</li>
+                        </ul>
+                        <button class="btn-gold">Order shooting</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <img src="img/contacts.jpg" alt="contacts" class="hidden-sm">
+            <img src="img/contacts-mob.jpg" alt="contacts" class="visible-sm">
+            <div class="container">
+                <h2>Contact with me</h2>
+                <form>
+                    <label><input type="email" placeholder="E-mail"></label>
+                    <label><input type="tel" placeholder="Phone"></label>
+                    <label><textarea cols="5" rows="3" placeholder="Message"></textarea></label>
+                    <button type="submit" class="btn-gold">Send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p><span class="pr-20">&copy;</span> <span class="pr-20">2022</span><a href="https://github.com/ukulya" class="pr-15-sm">github</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <p class="my-0"><a href="https://rs.school/js-stage0/">Rolling Scopes School</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="img/inst1.svg" alt="ig" class="img-unvisited">
+                                <img src="img/inst2.svg" alt="ig" class="img-hover">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/fb1.svg" alt="fb" class="img-unvisited">
+                                <img src="img/fb2.svg" alt="fb" class="img-hover">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/tw1.svg" alt="tw" class="img-unvisited">
+                                <img src="img/tw2.svg" alt="tw" class="img-hover">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/pin1.svg" alt="pin" class="img-unvisited">
+                                <img src="img/pin2.svg" alt="pin" class="img-hover">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
